@@ -1,0 +1,7 @@
+share/data/*
+!share/data/.gitkeep
+
+share/glove/__pycache__
+share/glove/multirun
+share/glove/outputs
+share/glove/glove

@@ -1,0 +1,4 @@
+glove:
+  malware_path : /Workspace/data/sample-ffridataset2021_malware_100_strings_version2.txt.gz
+  clean_path: /Workspace/data/sample-ffridataset2021_cleanware_100_strings_version2.txt.gz
+  N_gram: 9
