@@ -87,6 +87,7 @@ class MakeDataset():
             f.write(f"malware_unique_word : {len(malware_unique_word)}\n")
             f.write(f"clean_unique_word : {len(clean_unique_word)}\n")
 
+
     def __call__(self):
         self.file_open()
         # マルウェア

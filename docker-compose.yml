@@ -7,3 +7,15 @@ services:
     tty: true
     volumes:
       - ./share:/Workspace
+  gpu:
+    build: ./gpu
+    container_name: tensorflow_gpu
+    tty: true
+    volumes:
+      - ./share:/Workspace
+    deploy:
+      resources:
+        reservations:
+          devices:
+           - driver: nvidia
+             capabilities: [utility, compute, video]

@@ -1,4 +1,4 @@
-FROM python:3
+FROM tensorflow/tensorflow:2.8.0-gpu
 
 USER root
 
